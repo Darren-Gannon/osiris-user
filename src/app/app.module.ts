@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { RandomUserModule } from './random-user/random-user.module';
+import { UserDisplayComponent } from './components/user-display/user-display.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UserDisplayComponent
   ],
   imports: [
     BrowserModule,
